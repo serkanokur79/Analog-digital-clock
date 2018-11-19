@@ -12,5 +12,5 @@ The core is from Morten Rand-Hendriksen's JavaScript Essential Training Course.
 
 Original | Updated
 ------------ | -------------
-![Original](http://serkanokur.com/Clock/original.JPG) | ![Updated clock](http://serkanokur.com/Clock/clock.JPG)
+![Original](http://serkanokur.com/Clock/original.JPG) | ![Updated digital analog clock](http://serkanokur.com/Clock/Nclock.JPG)
 
