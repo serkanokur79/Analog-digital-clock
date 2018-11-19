@@ -1,0 +1,91 @@
+/* Layout */
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+    background-color: #FFA07A;
+}
+
+.clockbox,
+#clock {
+    width: 100%;
+}
+
+/* Clock styles */
+.circle {
+    fill: #ddd;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill: #FF4500;
+}
+.hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+#hour-text{
+  font-size: 3rem;
+  font-weight: bold;
+  stroke:none;
+  text-anchor: middle;
+}
+.hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #FF4500;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Digital Date & Hour Styles */
+.date-box{
+    fill: black;
+    width: 180px;
+    height: 50px;
+}
+
+#date-text, #digi-text{
+    fill: #FFF;
+    text-anchor: middle;
+    alignment-baseline: central;
+    font-size: 2rem;
+}
+
+.digi-box{
+    fill: black;
+    width: 150px;
+    height: 50px;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+
+}
