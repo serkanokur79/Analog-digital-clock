@@ -10,7 +10,7 @@ The core is from Morten Rand-Hendriksen's JavaScript Essential Training Course.
 - [x] background color changed using JS and CSS
 - [x] second hand color changed using JS and CSS
 - [x] clock background changed using JS and CSS
-- [] Background will change according to DayTime (using JS and CSS)
+- [ ] Background will change according to DayTime (using JS and CSS)
 
 See [how it works!](http://serkanokur.com/Clock/index.html)
 
