@@ -9,6 +9,7 @@ The core is from Morten Rand-Hendriksen's JavaScript Essential Training Course.
 - [x] second hand color changed
 - [x] clock background changed
 
+See [how it works!](http://serkanokur.com/Clock/index.html)
 
 Original | Updated
 ------------ | -------------
