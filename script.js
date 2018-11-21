@@ -50,5 +50,5 @@ function runTheDigiClock(){
   document.getElementById("date-text").innerHTML= wday +" "+ d +" "+ mon ;
 }
 
-var interval = setInterval(runTheClock, 1000);
-var interval = setInterval(runTheDigiClock, 1000);
+setInterval(runTheClock, 1000);
+setInterval(runTheDigiClock, 1000);
