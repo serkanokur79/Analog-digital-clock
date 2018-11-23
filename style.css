@@ -8,6 +8,17 @@
     background-color: #FFA07A;
 }
 
+header{
+  background-color: #ccc;
+  text-align: center;
+  padding: 2vh;
+  margin: 0;
+}
+h1{
+  margin: 0;;
+  padding: 0;
+
+}
 .clockbox,
 #clock {
     width: 100%;
